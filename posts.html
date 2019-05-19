@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Posts"
+permalink: "/posts/"
+---
+
+<article>
+  <header><h1>Posts</h1></header>
+  {% for category in site.categories %}
+<h2>{{ category | first }} <small>« {{ category | last | size }} posts</small></h3>
+<ul class="arc-list">
+    {% for post in category.last %}
+    {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
+        <div>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+        <h3>  <a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        </div>
+    {% endfor %}
+</ul>
+{% endfor %}
+</article>
