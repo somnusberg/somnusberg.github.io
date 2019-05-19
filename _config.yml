@@ -18,7 +18,7 @@ navigation:                  # (optional) site navigation in the header
   - index.html
   - posts.html
   - README.md
-  - title: "https://www.google.com"       # linking external sites is also supported
+#  - Disk: "https://www.google.com"       # linking external sites is also supported
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:somnusberg@gmail.com"
@@ -34,7 +34,7 @@ comments:                    # embed disqus or isso comments
 #  disqus: ""
 #  isso: ""
 
-plugins: 
+plugins:
  - jekyll-feed
  - jekyll-paginate
  - jekyll-default-layout

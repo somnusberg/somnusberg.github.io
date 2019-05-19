@@ -8,13 +8,15 @@ categories: Codes
 
 ## 有参考价值的网址
 
+Markdown： [Github flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)（还可以用 [emoji](https://www.webfx.com/tools/emoji-cheat-sheet/) 喔！:laughing:）
+
 复习一下git： [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 Jekyll中文文档： [Jekyll](https://www.jekyll.com.cn/)
 
 文档的英文版本： [Jekyll docs](https://jekyllrb.com/)
 
-入门、Jekyll 基本语法的学习： [Creating and Hosting a Personal Site on GitHub]http://jmcglone.com/guides/github-pages/
+入门、Jekyll 基本语法的学习： [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
 
 环境搭建、ruby 的操作、中文注释： [Github+Jekyll 搭建个人网站详细教程](https://www.jianshu.com/p/9f71e260925d)
 
@@ -27,6 +29,16 @@ Category 分类的搭建： [
 
 ## 会常用到的命令
 
-Jekyll 本地调试： jekyll server
+Jekyll 本地调试：
+```ruby
+jekyll server
+```
 
 调试网址是 http://127.0.0.1:4000/
+
+git： 
+```git
+git add .
+git submit -m "type comment here"
+git push -u origin master
+```
