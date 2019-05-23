@@ -39,6 +39,6 @@ jekyll server
 git：
 ```git
 git add .
-git submit -m "type comment here"
+git commit -m "type comment here"
 git push -u origin master
 ```
