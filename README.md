@@ -9,16 +9,20 @@ permalink: "/about/"
 
 - "Airband" 意为“波段”，表征无线电通讯频率
 
-- 将会是一个同时存放代码和胡言乱语的罗大佑 bot
+- 一个疏于更新的非技术博客
 
 ### 关于我
 
 - 眠山，一个输入摇滚乐输出二进制乱码的非线性时变不稳定系统
 
+- 笔译和 SINANO 蓄力中
+
 - “然而，我又是宇宙的游子”
 
 ### 鸣谢
 
-- [聚聚](https://www.weibo.com/u/3295918004?from=feed&loc=at&nick=_%E4%B8%80%E4%B8%AA%E9%A5%AD%E6%A1%B6_), for every work we've done and will be doing together
+-[Van 君](https://www.weibo.com/p/1005053295918004)，为所有的头脑风暴和美妙合作
+
+- 我的神仙小画家[斑马](https://weibo.com/u/3170450091)同志，为所有的此刻、上一刻和下一刻
 
 - 以及来到这里的你
