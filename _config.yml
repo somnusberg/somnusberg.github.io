@@ -23,7 +23,8 @@ navigation:                  # (optional) site navigation in the header
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:somnusberg@gmail.com"
 #  facebook: "https://www.facebook.com/somnusberg"
-  weibo: "https://weibo.com/3991698263/profile?topnav=1&wvr=6&is_all=1”
+  weibo: "https://weibo.com/3991698263/profile?topnav=1&wvr=6&is_all=1"
+  rss: "/feed.xml"
 
 # Pagination
 show_excerpts: false         # preview articles on the home page
