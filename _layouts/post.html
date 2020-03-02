@@ -16,9 +16,6 @@ layout: default
   <hr><div id="disqus_thread"></div>
   <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   {% endif %}
-</article>
-{% if site.post_footer %}
-<footer>
   {% if site.comments.gitalk %}
   <link rel="stylesheet" href="{{ "/assets/css/gitalk.css" | relative_url }}">
   <script src="{{ "/assets/css/gitalk.min.js" | relative_url }}"></script>
@@ -38,7 +35,9 @@ layout: default
           gitalk.render('gitalk-container')
     </script>
   {% endif %}
-  
+</article>
+{% if site.post_footer %}
+<footer>
   {% if page.next.url %}<a class="gray" href="{{ page.next.url | relative_url }}">« {{ page.next.title }}</a>{% else %}<span></span>{% endif %}
   {% if page.previous.url %}<a class="gray" href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} »</a>{% else %}<span></span>{% endif %}
 </footer>
