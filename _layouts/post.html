@@ -19,8 +19,10 @@ layout: default
 </article>
 {% if site.post_footer %}
 <footer>
+  {% if page.next.url %}<a class="gray" href="{{ page.next.url | relative_url }}">« {{ page.next.title }}</a>{% else %}<span></span>{% endif %}
+  {% if page.previous.url %}<a class="gray" href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} »</a>{% else %}<span></span>{% endif %}
   {% if site.comments.gitalk %}
-  <script>
+    <script>
       var gitalk = new Gitalk({
             clientID: '{{ site.comments.gitalk_clientID }}',
             clientSecret: '{{ site.comments.gitalk_Secret }}',
@@ -32,10 +34,7 @@ layout: default
           })
 
           gitalk.render('gitalk-container')
-  </script>
-{% endif %}
-  {% if page.next.url %}<a class="gray" href="{{ page.next.url | relative_url }}">« {{ page.next.title }}</a>{% else %}<span></span>{% endif %}
-  {% if page.previous.url %}<a class="gray" href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} »</a>{% else %}<span></span>{% endif %}
+    </script>
+  {% endif %}
 </footer>
-
 {% endif %}
