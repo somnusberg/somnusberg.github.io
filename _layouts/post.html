@@ -28,13 +28,12 @@ layout: default
             distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
           })
 
-          gitalk.render('disqus_thread')
+          gitalk.render('gitalk-container')
   </script>
 {% endif %}
 </article>
 {% if site.post_footer %}
 <footer>
-  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   {% if page.next.url %}<a class="gray" href="{{ page.next.url | relative_url }}">« {{ page.next.title }}</a>{% else %}<span></span>{% endif %}
   {% if page.previous.url %}<a class="gray" href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} »</a>{% else %}<span></span>{% endif %}
 </footer>
