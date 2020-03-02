@@ -5,8 +5,11 @@ categories: Codes
 
 基于 [Contrast Jekyll theme](https://jekyllthemes.io/theme/contrast) 修改
 
+修改过后的源码在 [这里](https://github.com/somnusberg/somnusberg.github.io)
 
-## 有参考价值的网址
+## 我梭过的网址
+
+因为的确是个小白所以抄过很多弱智东西（。
 
 Markdown： [Github flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)（并不能用[emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)，但是这个网站很好玩儿干脆马一下……）
 
@@ -25,9 +28,10 @@ Category 分类的搭建： [
 
 还是 Category： [为 jekyll 博客添加 category 分类](https://justjavac.com/jekyll/2012/05/22/use-category-plugin-for-jekyll-blog.html)
 
+评论 powered by [gitalk](https://github.com/gitalk/gitalk)，有时候会 Network Error，没有找到解决方法
 
 
-## 会常用到的命令
+## 一些命令
 
 Jekyll 本地调试：
 ```ruby

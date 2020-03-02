@@ -18,11 +18,7 @@
 {% endif %}
 {% if site.comments.disqus %}<script src="//{{ site.comments.disqus }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso %}<script data-isso="http://{{ site.comments.isso }}" src="//{{ site.comments.isso }}/js/embed.min.js"></script>{% endif %}
-{% if site.comments.gitalk %}
-<link rel="stylesheet" href="{{ "/assets/css/gitalk.css" | relative_url }}">
-<script src="{{ "/assets/css/gitalk.min.js" | relative_url }}"></script>
-<div id='gitalk-container'></div>
-{% endif %}
+
 
 <header class="{% if site.dark_header %}dark{% endif %}">
   {% unless site.hide_title %}
@@ -50,6 +46,12 @@
 
 {{ content }}
   
+{% if site.comments.gitalk %}
+<link rel="stylesheet" href="{{ "/assets/css/gitalk.css" | relative_url }}">
+<script src="{{ "/assets/css/gitalk.min.js" | relative_url }}"></script>
+<div id='gitalk-container'></div>
+{% endif %}
+
   <br>
   <br>
   <br>
