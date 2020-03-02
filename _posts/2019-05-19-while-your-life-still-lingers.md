@@ -1,6 +1,6 @@
 ---
 title:  "玻海： 弥留之际"
-categories: Nonsense
+categories: Aftershocks
 ---
 ~~几年前的黑历史了，胡乱放在这了 lol~~
 
