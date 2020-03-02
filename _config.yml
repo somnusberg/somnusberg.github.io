@@ -31,8 +31,13 @@ paginate: 8                  # number of articles per page
 excerpt_separator: "\n\n\n"  # indicate the end of the excerpt by two blank lines
 
 comments:                    # embed disqus or isso comments
-#  disqus: ""
-#  isso: ""
+  gitalk: true
+  gitalk_clientID: 'e3850747124fe740dd9e'
+  gitalk_Secret: 'a5b8ec1d4c7729d904831d9c99aa7a1800d56826'
+  gitalk_repo: 'somnusberg.github.io'
+  gitalk_owner: 'somnusberg'
+  gitalk_admin: 'somnusberg'
+  distractionFreeMode: true
 
 plugins:
  - jekyll-feed
