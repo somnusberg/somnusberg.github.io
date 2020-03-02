@@ -25,6 +25,11 @@ layout: default
 {% endif %}
 
 {% if site.comments.gitalk %}
+
+<link rel="stylesheet" href="{{ "/assets/css/gitalk.css" | relative_url }}">
+<script src="{{ "/assets/css/gitalk.min.js" | relative_url }}"></script>
+<div id='gitalk-container'></div>
+
     <script>
       var gitalk = new Gitalk({
             clientID: '{{ site.comments.gitalk_clientID }}',
