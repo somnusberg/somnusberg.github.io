@@ -18,7 +18,10 @@
 {% endif %}
 {% if site.comments.disqus %}<script src="//{{ site.comments.disqus }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso %}<script data-isso="http://{{ site.comments.isso }}" src="//{{ site.comments.isso }}/js/embed.min.js"></script>{% endif %}
-{% if site.comments.gitalk %}<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>{% endif %}
+{% if site.comments.gitalk %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+{% endif %}
 
 <header class="{% if site.dark_header %}dark{% endif %}">
   {% unless site.hide_title %}
