@@ -5,16 +5,20 @@ permalink: "/about/"
 
 ### 关于Airband 125
 
-- “125” 来自[交工乐队](https://zh.wikipedia.org/wiki/%E4%BA%A4%E5%B7%A5%E6%A8%82%E9%9A%8A)的专辑《菊花夜行军》中的第二首歌[「风神 125」](https://www.youtube.com/watch?v=xiSDTtZMclM)
-
-- "Airband" 意为“波段”，表征无线电通讯频率
+- 你好，这里是我的波段 :)
 
 - 一个疏于更新的非技术博客
 
+- 很开心能在信息洪流中被你接收到！如果我的任何一行字使你有所动，pleeeease comment below (powered by Gitalk)
+
 ### 关于我
 
-- 眠山，二进制孟姜女，想打碎身体筑一座桥
+- 眠山
 
-### 还能写点什么呢
+- 是没有感情的无机质，但也希望身体被打碎之后能筑成一座桥而非一堵墙
 
-- 谢谢来到这里的你
+### 致谢
+
+- 谢谢宇宙第一的小陈老师给我画了超可爱的分割线！ (coming soon)
+
+- 以及来到这里的你
